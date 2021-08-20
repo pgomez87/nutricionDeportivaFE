@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>ND | Alimentación Saludable</title>
+    <link rel="icon" href="images/logo_ND_White.png" />
+    
+    
+    
+  </head>
+
+  <body>
+    <section class="home-intro">
+      <div class="small-container-header">
+        <div class="navbar">
+          <div class="">
+            <a href="index.html"
+              ><img src="images/logo_ND_Orange.png" alt="" class="logo"
+            /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="products.html">Productos</a></li>
+              <li><a href="form.html">Contacto</a></li>
+              <li><a href="account.html">Cuenta</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"><i class="fas fa-shopping-cart cart"></i></a>
+          <i class="fas fa-bars" onclick="menuToggle()"></i>
+        </div>
+
+        <div class="row">
+          <div class="col-2-title col-2">
+            <h1>Nutrición Deportiva</h1>
+            <p>Obtenga hasta un 20% de descuento en su primera compra.</p>
+            <a href="" class="btn"
+              >Ver productos <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Categories -->
+
+    <div class="categories">
+      <div class="small-container">
+        <h2 class="title">Categorías</h2>
+        <div class="row">
+          <div class="col-3">
+            <div class="layer">
+              <h3>Aminoácidos</h3>
+              <img src="images/category-1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="layer">
+              <h3>Proteínas</h3>
+              <img src="images/category-2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="layer">
+              <h3>Pre-entrenos</h3>
+              <img src="images/category-3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="beneficios">
+      <div class="small-container">
+        <h1 class="title-white">Beneficios</h1>
+        <div class="row">
+          <a
+            href=""
+            class="beneficios-ind"
+          >
+            <h3>Ofertas Semanales</h3>
+            <i class="fas fa-tags"></i>
+            <p>
+              Se aplicarán a productos específicos descuentos porcentuales,
+              compre 1 lleve 2 y regalías según monto final de compra.
+            </p>
+          </a>
+          <a
+            href=""
+            class="beneficios-ind"
+          >
+            <h3>Envío Gratuito</h3>
+            <i class="fas fa-truck"></i>
+            <p>
+              En ordenes mayores a $150. Adicional, se anunciarán días
+              especificos que el envío será gratuito para todas las ordenes.
+            </p>
+          </a>
+          <a
+            href=""
+            class="beneficios-ind"
+          >
+            <h3>Acumulación de puntos</h3>
+            <i class="fas fa-funnel-dollar"></i>
+            <p>
+              Todas las ordenes obtendrán puntos, estos, podrán ser canjeados
+              por productos especificos o en su próxima orden.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <div class="small-container">
+      <h2 class="title">Productos Destacados</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="productDetails.html"
+            ><img src="images/product-1.jpg" alt=""
+          /></a>
+          <a href="productDetails.html"><h4>Proteína Opt. Nutrition</h4></a>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$59.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-2.jpg" alt="" />
+          <h4>Proteína Rule 1 R1</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$55.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-3.jpg" alt="" />
+          <h4>Creatina Dymatize</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$35.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-4.jpg" alt="" />
+          <h4>ISO 100 Dymatize</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$63.99</p>
+        </div>
+      </div>
+
+      <h2 class="title">Productos Recientes</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-5.jpg" alt="" />
+          <h4>Aminoácidos Rule 1</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <p>$37.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-6.jpg" alt="" />
+          <h4>Proteína MuscleTech</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$53.99</p>
+        </div>
+        <div class="col-4">
+          <img class="product-img" src="images/product-7.jpg" alt="" />
+          <h4>Wafer Opt. Nutrition</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>$33.99</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-8.jpg" alt="" />
+          <h4>Pre-entreno 3XT</h4>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>$47.99</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offers -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/promo-product.png" class="offer-img" alt="" />
+          </div>
+          <div class="col-2">
+            <h1>Dymatize BCAAs</h1>
+
+            <p>Compra 1, lleva 2. <i class="fas fa-tag"></i></p>
+            <br />
+
+            <small>
+              Con 10 gramos totales de Aminoácidos Esenciales (EAAs), incluyendo
+              7.2 gramos de Aminoácidos de Cadena Ramifica (BCAAs), ALL9 es la
+              mejor formula para la recuperación muscular.
+            </small>
+            <br />
+            <a href="" class="btn"
+              >Comprar Ahora <i class="fas fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Soporte</h3>
+            <ul>
+              <a href=""><li>Servicio al cliente</li></a>
+              <a href=""><li>Estado de ordenes</li></a>
+              <a href=""><li>Ingresar a cuenta</li></a>
+              <a href=""><li>Devolver producto</li> </a>
+            </ul>
+          </div>
+          <div class="footer-col-1">
+            <h3>Contáctenos</h3>
+            <ul>
+              <li>Nutrición Deportiva S.A.</li>
+              <li>Alajuela, Costa Rica.</li>
+              <li>+(506) 8888-9999</li>
+              <a href=""
+                ><li>Enviar correo <i class="far fa-paper-plane"></i></li
+              ></a>
+            </ul>
+          </div>
+          <div class="footer-col-2">
+            <img class="logo-footer" src="images/logo_ND_White.png" alt="" />
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Siguenos en:</h3>
+            <div class="icons">
+              <a
+                href="https://www.facebook.com/ "
+                target="_blank "
+                class="fab fa-facebook-f"
+              ></a>
+              <a
+                href="https://www.instagram.com/ "
+                target="_blank "
+                class="fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/ "
+                target="_blank "
+                class="fab fa-linkedin-in"
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">
+          Todos los derechos reservados 2021 - Nutrición Deportiva
+        </p>
+      </div>
+    </div>
+    <script src="js/menuToggle.js"></script>
+  </body>
+</html>
