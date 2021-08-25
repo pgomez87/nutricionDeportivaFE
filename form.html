@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuenta | ND</title>
+    <link rel="icon" href="images/logo_ND_White.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+              ><img src="images/logo_ND_Orange.png" alt="" class="logo"
+            /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a href="form.html">Contacto</a></li>
+            <li><a href="account.html">Cuenta</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"><i class="fas fa-shopping-cart cart"></i></a>
+        <i class="fas fa-bars" onclick="menuToggle()"></i>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="container-form">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <h2 class="h2-form">Contáctenos</h2>
+          <input type="text" class="field" placeholder="Nombre" />
+          <input type="email" class="field" placeholder="Correo Electrónico" />
+          <input type="text" class="field" placeholder="Teléfono" />
+          <textarea class="field area" placeholder=""></textarea>
+          <a class="btn">Enviar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Soporte</h3>
+            <ul>
+              <a href=""><li>Servicio al cliente</li></a>
+              <a href=""><li>Estado de ordenes</li></a>
+              <a href=""><li>Ingresar a cuenta</li></a>
+              <a href=""><li>Devolver producto</li> </a>
+            </ul>
+          </div>
+          <div class="footer-col-1">
+            <h3>Contáctenos</h3>
+            <ul>
+              <li>Nutrición Deportiva S.A.</li>
+              <li>Alajuela, Costa Rica.</li>
+              <li>+(506) 8888-9999</li>
+              <a href=""
+                ><li>Enviar correo <i class="far fa-paper-plane"></i></li
+              ></a>
+            </ul>
+          </div>
+          <div class="footer-col-2">
+            <img class="logo-footer" src="images/logo_ND_White.png" alt="" />
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Siguenos en:</h3>
+            <div class="icons">
+              <a
+                href="https://www.facebook.com/ "
+                target="_blank "
+                class="fab fa-facebook-f"
+              ></a>
+              <a
+                href="https://www.instagram.com/ "
+                target="_blank "
+                class="fab fa-instagram"
+              ></a>
+              <a
+                href="https://www.linkedin.com/ "
+                target="_blank "
+                class="fab fa-linkedin-in"
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">
+          Todos los derechos reservados 2021 - Nutrición Deportiva
+        </p>
+      </div>
+    </div>
+
+    <script src="js/accountLogReg.js"></script>
+    <script src="js/menuToggle.js"></script>
+  </body>
+</html>
